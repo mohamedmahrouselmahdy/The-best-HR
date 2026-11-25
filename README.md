@@ -136,3 +136,7 @@ Please read our [Logo and Trademark Policy](TRADEMARK_POLICY.md).
 	</a>
 </div>
 
+
+---
+## The Best HR (Egypt edition)
+This fork is maintained by The Best Technology. The `egypt-edition` branch only changes branding in `hrms/hooks.py`. Egypt payroll, Arabic and face check-in live in the separate `thebesthr` app. Upstream: https://github.com/frappe/hrms
