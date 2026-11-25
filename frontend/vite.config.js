@@ -24,8 +24,8 @@ export default defineConfig({
 			},
 			manifest: {
 				display: "standalone",
-				name: "Frappe HR",
-				short_name: "Frappe HR",
+				name: "The Best HR",
+				short_name: "The Best HR",
 				start_url: "/hrms",
 				scope: "/hrms",
 				id: "/hrms",
