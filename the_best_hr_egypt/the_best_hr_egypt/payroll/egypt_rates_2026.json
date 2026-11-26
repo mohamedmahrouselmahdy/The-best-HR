@@ -1,0 +1,28 @@
+{
+  "year": 2026,
+  "sources": [
+    "Law 148/2019 (social insurance), rates and 2026 wage bounds: https://npiegypt.com/articles/social-insurance/social-insurance-contribution-rates-egypt (secondary source, verify with NOSI)",
+    "Income tax Law 91/2005 as amended by Law 7/2024 (slabs, 20,000 personal exemption): https://portal.eta.gov.eg/sites/default/files/2024-03/law_no.7-2024.pdf ; slabs cross-checked: Deloitte Egypt Highlights 2026"
+  ],
+  "insurance": {
+    "employee_rate": 0.11,
+    "employer_rate": 0.1875,
+    "min_insurable_wage_monthly": 2700,
+    "max_insurable_wage_monthly": 16700,
+    "note": "Employee/employer rate rises by 1% total (split equally) on 2027-01-01 per article 19; update file for 2027."
+  },
+  "tax": {
+    "personal_exemption_annual": 20000,
+    "slabs_annual": [
+      {"up_to": 40000, "rate": 0.0},
+      {"up_to": 55000, "rate": 0.10},
+      {"up_to": 70000, "rate": 0.15},
+      {"up_to": 200000, "rate": 0.20},
+      {"up_to": 400000, "rate": 0.225},
+      {"up_to": 1200000, "rate": 0.25},
+      {"up_to": null, "rate": 0.275}
+    ],
+    "max_annual_net_supported": 600000,
+    "note": "Law 7/2024 phases out the lower slabs for higher incomes (>600,000 net). Not implemented: calculation refuses such incomes instead of guessing. Rounds annual net down to nearest 10 EGP."
+  }
+}
